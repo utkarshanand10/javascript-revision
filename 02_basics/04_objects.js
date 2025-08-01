@@ -42,5 +42,5 @@ const { courseLearner: learner } = course;
 
 console.log(learner);
 
-const navbar = ({ company }) => {};
-navbar((company = "Google"));
+// const navbar = ({ company }) => {};
+// navbar((company = "Google"));

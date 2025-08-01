@@ -18,3 +18,6 @@ const anotherArray = [1, 2, 3, [4, 5], 6, [[7, 8], 4, 2, 1]];
 
 const realArray = anotherArray.flat(Infinity); // Flattens the array to a depth of 2
 console.log(realArray);
+
+console.log(Array.isArray("utkarsh")); // Checks if "utkarsh" is an array (returns false
+console.log(Array.from("utkarsh")); // Converts "utkarsh" to an array of characters

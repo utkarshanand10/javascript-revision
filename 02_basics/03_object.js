@@ -2,7 +2,7 @@ const mySym = Symbol("mykey1");
 
 const obj = {
   name: "John",
-  mySym: "mykey1",
+  [mySym]: "mykey1",
   age: 30,
   email: "utkarshanand133@gmail.com",
   isLoggedIn: true,
