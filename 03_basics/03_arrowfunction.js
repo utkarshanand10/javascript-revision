@@ -39,3 +39,9 @@ const addTwo = (num1, num2) => ({
 });
 
 console.log(addTwo(10, 20));
+
+const myArray = [2,3,4,5,6]
+
+// myArray.forEach(()=>{
+    // 
+// })

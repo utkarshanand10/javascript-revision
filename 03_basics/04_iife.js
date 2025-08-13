@@ -1,9 +1,12 @@
 // Immediately Invoked Function Expression (IIFE)
 (function user() {
+    //named iife user
   console.log(`DB CONNECTED`);
 });
 user();
 
-() => {
-  console.log(`DB CONNECTED TWO`);
-};
+((name)  => {
+    //unnamed iife
+    console.log(`DB CONNECTED TWO ${name}`)
+}) ("Utkarsh")
+

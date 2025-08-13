@@ -42,8 +42,12 @@ if (true) {
 
 //-------INTRESTING PART-----------------
 
+console.log(addone(10));
 function addone(num) {
   return num + 1;
 }
 
-addone(10);
+console.log(addTwo(10));//cant acess this 
+const addTwo = function(num){
+    return num + 2;
+}
