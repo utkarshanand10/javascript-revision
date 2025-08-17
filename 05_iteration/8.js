@@ -8,7 +8,24 @@ const initialValue = 0;
 //   console.log(`accumulator: ${accumulator} and currentvalue ${currentValue}`);
 //   return accumulator + currentValue;
 // }, initialValue);
+// const sum = array.reduce((acc, curr) => acc + arr, 0);
+// console.log(sum);
 
-const sum = array.reduce((acc, curr) => acc + arr, 0);
+const shoppingCart = [
+  {
+    itemName: "js course",
+    price: 299,
+  },
+  {
+    itemName: "python course",
+    price: 400,
+  },
+  {
+    itemName: "java course",
+    price: 700,
+  },
+];
 
-console.log(sum);
+const pricetopay = shoppingCart.reduce((acc, item) => acc + item.price, 0);
+
+console.log(pricetopay);
